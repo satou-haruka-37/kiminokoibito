@@ -2,7 +2,7 @@ class GameController < ApplicationController
   def scene1; end
 
   def scene1_2
-    random_number = rand(5)
+    random_number = rand(7)
     if random_number == 0
       redirect_to good_ending_path
     else
@@ -13,7 +13,7 @@ class GameController < ApplicationController
   def scene2; end
 
   def scene2_2
-    random_number = rand(5)
+    random_number = rand(7)
     if random_number == 0
       redirect_to good_ending_path
     else
@@ -24,7 +24,7 @@ class GameController < ApplicationController
   def scene3; end
 
   def scene3_2
-    random_number = rand(5)
+    random_number = rand(7)
     if random_number == 0
       redirect_to good_ending_path
     else
@@ -35,7 +35,7 @@ class GameController < ApplicationController
   def scene4; end
 
   def scene4_2
-    random_number = rand(5)
+    random_number = rand(7)
     if random_number == 0
       redirect_to good_ending_path
     else
@@ -46,7 +46,7 @@ class GameController < ApplicationController
   def scene5; end
 
   def scene5_2
-    random_number = rand(5)
+    random_number = rand(7)
     if random_number == 0
       redirect_to good_ending_path
     else

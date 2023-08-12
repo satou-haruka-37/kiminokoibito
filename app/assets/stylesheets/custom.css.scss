@@ -25,4 +25,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  display: flex; /* フレックスボックスを使用 */
+  justify-content: center; /* 横方向の中央揃え */
+  align-items: center; /* 縦方向の中央揃え */
 }
