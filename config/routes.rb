@@ -1,0 +1,16 @@
+Rails.application.routes.draw do
+  root 'game#scene1'
+  get 'scene1', to: 'game#scene1'
+  get 'scene1_2', to: 'game#scene1_2'
+  get 'scene2', to: 'game#scene2'
+  get 'scene2_2', to: 'game#scene2_2'
+  get 'scene3', to: 'game#scene3'
+  get 'scene3_2', to: 'game#scene3_2'
+  get 'scene4', to: 'game#scene4'
+  get 'scene4_2', to: 'game#scene4_2'
+  get 'scene5', to: 'game#scene5'
+  get 'scene5_2', to: 'game#scene5_2'
+  get 'bad_ending', to: 'game#bad_ending'
+  get 'good_ending', to: 'game#good_ending'
+  get 'together_ending', to: 'game#together_ending'
+end
