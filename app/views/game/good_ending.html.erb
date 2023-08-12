@@ -1,4 +1,7 @@
-<div class="background" style="background-image: url('<%= asset_path('good.png') %>'); ">
-  <!-- 自動的に together_ending ビューに遷移する JavaScript コード -->
-
+<div class="background" style="background-image: url('<%= image_path('good.png') %>'); ">
+  <script>
+    setTimeout(function() {
+      window.location.href = "<%= together_ending_path %>";
+    }, 3000);
+  </script>
 </div>
